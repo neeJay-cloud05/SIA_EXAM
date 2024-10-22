@@ -1,0 +1,171 @@
+body {
+    display: block;
+    margin: 0 auto;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+@font-face {
+    font-family: 'Minecraft';
+    src: url(Minecraft.ttf);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #010409;
+}
+
+.resume {
+    margin-top: 3vw;
+    background-color: #0d1117;
+    width: 80%;
+    height: auto;
+    border: 2px solid #2d343c;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 3vw;
+}
+
+.header,
+.content {
+    width: 100%;
+    padding: 20px;
+}
+
+.space {
+    margin-bottom: 2vw;
+}
+
+.img img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.detail h1 {
+    color: aliceblue;
+    font-size: 5vw;
+}
+
+.more_details span,
+.label,
+span {
+    color: aliceblue;
+    font-size: 3vw;
+}
+
+hr {
+    width: 100%;
+}
+
+h3,
+p {
+    color: aliceblue;
+    font-size: 2.5vw;
+}
+
+.obj,
+.obj_header,
+.obj_personal_info_header,
+.obg_content,
+.personal_info_content {
+    padding: 10px;
+    border: 1px solid #2d343c;
+    border-radius: 5px;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+}
+
+.title span {
+    padding-left: 1vw;
+}
+
+.title label {
+    display: inline-block;
+    width: 350px;
+}
+
+.row {
+    padding: 5px 0;
+}
+
+@media screen and (max-width: 767px) {
+
+    .resume {
+        width: 90%;
+        padding: 10px;
+    }
+
+    .header, .content {
+        padding: 10px;
+    }
+
+    .detail h1 {
+        font-size: 4vw;
+    }
+
+    .more_details span, label, span {
+        font-size: 2vw;
+    }
+
+    h3, p {
+        font-size: 1.5vw;
+    }
+
+    .img img {
+        width: 100%;
+        max-width: 150px;
+    }
+
+    .title label {
+        width: 150px;
+        color:aliceblue;
+    }
+
+    .container {
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    .resume {
+        width: 90%;
+        padding: 10px;
+    }
+
+    .header, .content {
+        padding: 10px;
+    }
+
+    .detail h1 {
+        font-size: 4vw;
+    }
+
+    .more_details span, label, span {
+        font-size: 2vw;
+    }
+
+    h3, p {
+        font-size: 1.5vw;
+    }
+
+    .img img {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .title label {
+        width: 250px;
+        color :aliceblue;
+    }
+
+    .container {
+        height: auto;
+    }
+}
